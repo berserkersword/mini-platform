@@ -1,0 +1,16 @@
+.quiz-page {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .start-quiz {
+        padding: .5rem 1rem;
+        background-color: blueviolet;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        color: #eee;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+    }
+}

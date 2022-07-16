@@ -1,0 +1,44 @@
+.admin {
+    width: 100%;
+    padding: 1rem;
+
+    .wrapper {
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .input-group {
+            min-width: 70%;
+            display: flex;
+            flex-direction: column;
+            background-color: #555;
+            padding: 1.5rem;
+            border-radius: 2rem;
+
+            div {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    font-size: 2rem;
+                    font-weight: 700;
+                    font-family: 'Poppins', sans-serif;
+                }
+
+                textarea {
+                    width: 100%;
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .submit-quiz {
+            min-width: 70%;
+            padding: .5rem 1rem;
+            color: #eee;
+            background-color: #842ad8;
+            border-radius: 1rem;
+        }
+    }
+}

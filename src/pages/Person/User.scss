@@ -1,0 +1,24 @@
+.users {
+    width: 100%;
+    min-height: 100vh;
+    padding: 1rem;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .user-img {
+            width: 20%;
+
+            img {
+                border-radius: 50%;
+                max-width: 100%;
+            }
+        }
+
+        .user-info {
+            width: 100%;
+        }
+    }
+}
